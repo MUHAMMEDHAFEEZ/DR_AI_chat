@@ -1,0 +1,4 @@
+django>=4.2.0
+djangorestframework>=3.14.0
+langchain-ollama>=0.0.1
+python-dotenv>=1.0.0 
