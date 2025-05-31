@@ -15,7 +15,7 @@ class ChatConsumer(AsyncWebsocketConsumer):
         message = text_data_json['message']
         
         # Initialize the Llama model
-        llm = OllamaLLM(model="llama3")
+        llm = OllamaLLM(model="medllama2")
         
         try:
             # Get response from the model
